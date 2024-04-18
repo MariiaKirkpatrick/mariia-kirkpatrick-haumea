@@ -29,6 +29,53 @@ h1 {
     flex-grow: 1;
 }
 
+/* Larger Screen Media Query */
+@media only screen and (min-width: 1025px) {
+    header {
+       background: rgb(231, 212, 226);
+       font-size: 1.3rem;
+       padding: 0.3rem;
+    }
+
+    #Portfolio {
+        background: rgb(231, 212, 226);
+    }
+
+    ul {
+        background: rgb(238, 177, 222);
+        padding: 2rem;
+    }
+
+    .my-name {
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+}
+
+/* Tablet Media Query */
+@media only screen and (max-width: 1024px) {
+    header {
+        background: rgb(202, 207, 236);
+        font-size: 1rem;
+        padding: 0.5rem;
+     }
+ 
+     #Portfolio {
+         background: #03123a;
+         color: white;
+     }
+ 
+     ul {
+         background: rgb(204, 188, 241);
+         padding: 1.6rem;
+     }
+ 
+     .my-name {
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         font-size: 1.2rem;
+     }
+}
+
 .photo {
     width:150px;
     height: auto;
@@ -46,46 +93,51 @@ h1 {
     margin: 25px 0px;
     padding: 20px;
     border: 5px dotted rgb(179, 195, 203);
+    width: 100%;
 }
 
 .job-table {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 2px solid rgb(26, 3, 73);
-    padding: 0px 20px;
+    padding: 0px 10px;
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+    
 }
-
-
+    
 .job-1 {
     display: flex;
     margin: 15px 0;
+    justify-content: space-between;
 }
 
 .job-2 {
     display: flex;
     margin: 15px 0;
+    justify-content: space-between;
 }
 
 .job-3 {
     display: flex;
     margin: 15px 0;
+    justify-content: space-between;
 }
 
 .job-description {
-    /* margin: 20px 10px 0px 30px; */
-    flex: 1.2;
-    margin-top: 20px;
+    margin-right: 5%;
+    width: 35%;
 }
 
 .job-dates {
-    flex: 0.8;
-    margin-top: 45px;
-    /* margin: 45px 0px 0px 20px; */
+    width: 20%;
 }
 
 .job-name {
-    flex: 1;
-    margin-top: 37px;
+    width: 25%;
+    margin-left: 5%;
 }
 
 #Connect {
@@ -111,5 +163,4 @@ h1 {
 
 .logo-layout {
     display: flex;
-    
 }
