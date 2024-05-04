@@ -164,3 +164,16 @@ h1 {
 .logo-layout {
     display: flex;
 }
+
+.button {
+    margin-top: 15px;
+}
+
+.input {
+    margin: 10px 0px;
+}
+
+.form-element {
+    display: block;
+    margin: 10px 1px;
+}
