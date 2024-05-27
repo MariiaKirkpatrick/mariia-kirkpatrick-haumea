@@ -1,179 +1,178 @@
 #Portfolio {
-    background-color: rgb(235, 239, 240);
+  background-color: rgb(235, 239, 240);
 }
 
 body {
-    background-color: lavenderblush;
-    color: rgb(6, 7, 6);
+  background-color: lavenderblush;
+  color: rgb(6, 7, 6);
 }
 
 h1 {
-    color: rgb(1, 7, 13);
-    font-weight: bolder;
-    padding:10px;
-    background-color: rgb(179, 195, 203);
-    margin: 25px 0px 0px 0px;
+  color: rgb(1, 7, 13);
+  font-weight: bolder;
+  padding: 10px;
+  background-color: rgb(179, 195, 203);
+  margin: 25px 0px 0px 0px;
 }
 
 .photo-layout {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .my-name {
-    background-color:rgb(4, 79, 120);
-    font-weight: bolder;
-    color:aliceblue;
-    font-size: larger;
-    padding: 50px 10px;
-    flex-grow: 1;
+  background-color: rgb(4, 79, 120);
+  font-weight: bolder;
+  color: aliceblue;
+  font-size: larger;
+  padding: 50px 10px;
+  flex-grow: 1;
 }
 
 /* Larger Screen Media Query */
 @media only screen and (min-width: 1025px) {
-    header {
-       background: rgb(231, 212, 226);
-       font-size: 1.3rem;
-       padding: 0.3rem;
-    }
+  header {
+    background: rgb(231, 212, 226);
+    font-size: 1.3rem;
+    padding: 0.3rem;
+  }
 
-    #Portfolio {
-        background: rgb(231, 212, 226);
-    }
+  #Portfolio {
+    background: rgb(231, 212, 226);
+  }
 
-    ul {
-        background: rgb(238, 177, 222);
-        padding: 2rem;
-    }
+  ul {
+    background: rgb(238, 177, 222);
+    padding: 2rem;
+  }
 
-    .my-name {
-        font-style: italic;
-        font-size: 1.5rem;
-    }
+  .my-name {
+    font-style: italic;
+    font-size: 1.5rem;
+  }
 }
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1024px) {
-    header {
-        background: rgb(202, 207, 236);
-        font-size: 1rem;
-        padding: 0.5rem;
-     }
- 
-     #Portfolio {
-         background: #03123a;
-         color: white;
-     }
- 
-     ul {
-         background: rgb(204, 188, 241);
-         padding: 1.6rem;
-     }
- 
-     .my-name {
-         font-family: Georgia, 'Times New Roman', Times, serif;
-         font-size: 1.2rem;
-     }
+  header {
+    background: rgb(202, 207, 236);
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+
+  #Portfolio {
+    background: #03123a;
+    color: white;
+  }
+
+  ul {
+    background: rgb(204, 188, 241);
+    padding: 1.6rem;
+  }
+
+  .my-name {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+  }
 }
 
 .photo {
-    width:150px;
-    height: auto;
-    margin-left: 10px; 
+  width: 150px;
+  height: auto;
+  margin-left: 10px;
 }
 
 #About {
-    background-color: rgb(179, 195, 203);
-    padding: 4px 30px;
-    margin: 0px px;
+  background-color: rgb(179, 195, 203);
+  padding: 4px 30px;
+  margin: 0px px;
 }
 
 #Experience {
-    background-color: rgb(236, 160, 236);
-    margin: 25px 0px;
-    padding: 20px;
-    border: 5px dotted rgb(179, 195, 203);
-    width: 100%;
+  background-color: rgb(236, 160, 236);
+  margin: 25px 0px;
+  padding: 20px;
+  border: 5px dotted rgb(179, 195, 203);
+  width: 100%;
 }
 
 .job-table {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid rgb(26, 3, 73);
-    padding: 0px 10px;
-    width: 90%;
-    margin: 0 auto;
-    box-sizing: border-box; 
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(26, 3, 73);
+  padding: 0px 10px;
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-    
+
 .job-1 {
-    display: flex;
-    margin: 15px 0;
-    justify-content: space-between;
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
 }
 
 .job-2 {
-    display: flex;
-    margin: 15px 0;
-    justify-content: space-between;
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
 }
 
 .job-3 {
-    display: flex;
-    margin: 15px 0;
-    justify-content: space-between;
+  display: flex;
+  margin: 15px 0;
+  justify-content: space-between;
 }
 
 .job-description {
-    margin-right: 5%;
-    width: 35%;
+  margin-right: 5%;
+  width: 35%;
 }
 
 .job-dates {
-    width: 20%;
+  width: 20%;
 }
 
 .job-name {
-    width: 25%;
-    margin-left: 5%;
+  width: 25%;
+  margin-left: 5%;
 }
 
 #Connect {
-    background-color: rgb(6, 76, 103);
-    padding: 15px 10px;
-    margin: 15px 0;
+  background-color: rgb(6, 76, 103);
+  padding: 15px 10px;
+  margin: 15px 0;
 }
 
 .div {
-    font-weight: bolder;
-    font-size:larger;
-    color:rgb(165, 81, 244);
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(165, 81, 244);
 }
 
 #Connect h2 {
-    color:azure;
+  color: azure;
 }
 
 .logo {
-    width: 20px;
-    margin: 5px 25px 0px 5px;
+  width: 20px;
+  margin: 5px 25px 0px 5px;
 }
 
 .logo-layout {
-    display: flex;
+  display: flex;
 }
 
 .button {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .input {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .form-element {
-    display: block;
-    margin: 10px 1px;
+  display: block;
+  margin: 10px 1px;
 }
