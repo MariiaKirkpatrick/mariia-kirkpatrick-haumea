@@ -11,38 +11,47 @@ h1 {
   color: rgb(1, 7, 13);
   font-weight: bolder;
   padding: 10px;
-  background-color: rgb(179, 195, 203);
   margin: 25px 0px 0px 0px;
+}
+
+nav a {
+  color: blue; /* Ensures the color remains blue */
+  text-decoration: none; /* Removes underline */
+}
+
+h2 {
+  margin-bottom: 5px; /* Adjust the bottom margin of the <h2> element */
 }
 
 .photo-layout {
   display: flex;
   align-items: center;
+  margin-top: 0;
 }
 
 .my-name {
-  background-color: rgb(4, 79, 120);
+  background-color: rgb(12, 84, 113);
   font-weight: bolder;
   color: aliceblue;
   font-size: larger;
-  padding: 50px 10px;
+  padding: 50px 15px;
   flex-grow: 1;
 }
 
 /* Larger Screen Media Query */
 @media only screen and (min-width: 1025px) {
   header {
-    background: rgb(231, 212, 226);
+    background: rgb(249, 237, 246);
     font-size: 1.3rem;
     padding: 0.3rem;
   }
 
   #Portfolio {
-    background: rgb(231, 212, 226);
+    background: rgb(220, 212, 237);
   }
 
   ul {
-    background: rgb(238, 177, 222);
+    background: rgb(189, 165, 246);
     padding: 2rem;
   }
 
@@ -55,18 +64,18 @@ h1 {
 /* Tablet Media Query */
 @media only screen and (max-width: 1024px) {
   header {
-    background: rgb(202, 207, 236);
+    background: rgb(247, 247, 249);
     font-size: 1rem;
     padding: 0.5rem;
   }
 
   #Portfolio {
-    background: #03123a;
-    color: white;
+    background: rgb(189, 165, 246);
+    color: rgb(35, 2, 2);
   }
 
   ul {
-    background: rgb(204, 188, 241);
+    background: rgb(220, 212, 237);
     padding: 1.6rem;
   }
 
@@ -82,29 +91,22 @@ h1 {
   margin-left: 10px;
 }
 
-#About {
-  background-color: rgb(179, 195, 203);
-  padding: 4px 30px;
-  margin: 0px px;
-}
-
-#Experience {
-  background-color: rgb(236, 160, 236);
-  margin: 25px 0px;
-  padding: 20px;
-  border: 5px dotted rgb(179, 195, 203);
-  width: 100%;
+.aboutParagraph {
+  background-color: rgb(220, 212, 237);
+  padding: 40px 15px;
+  margin: auto;
 }
 
 .job-table {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid rgb(26, 3, 73);
-  padding: 0px 10px;
-  width: 90%;
-  margin: 0 auto;
   box-sizing: border-box;
+  background-color: rgb(220, 212, 237);
+  margin: 25px 0px;
+  padding: 20px;
+  border: 5px dotted rgb(20, 20, 21);
+  width: 100%;
 }
 
 .job-1 {
@@ -140,19 +142,14 @@ h1 {
 }
 
 #Connect {
-  background-color: rgb(6, 76, 103);
-  padding: 15px 10px;
+  color: black;
   margin: 15px 0;
 }
 
-.div {
-  font-weight: bolder;
-  font-size: larger;
-  color: rgb(165, 81, 244);
-}
-
-#Connect h2 {
-  color: azure;
+.logos {
+  background-color: rgb(12, 84, 113);
+  padding: 15px 10px;
+  margin-top: 15px;
 }
 
 .logo {
