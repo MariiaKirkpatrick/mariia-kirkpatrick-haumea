@@ -141,6 +141,23 @@ h2 {
   margin-left: 5%;
 }
 
+#Skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+#Skills li {
+  background-color: rgb(233, 226, 237);
+  padding: 10px;
+  border: 1px solid rgb(200, 191, 197);
+  border-radius: 5px;
+  text-align: center;
+  flex: 1 1 200px; /* Grow and shrink with a base size of 200px */
+}
+
 #Connect {
   color: black;
   margin: 15px 0;
